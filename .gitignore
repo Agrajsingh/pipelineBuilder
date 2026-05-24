@@ -1,0 +1,22 @@
+# Ignore the frontend folder
+frontend/
+
+# Python cache & logs
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+*.log
+
+# Environments and sensitive data
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
